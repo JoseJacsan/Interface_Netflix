@@ -1,4 +1,71 @@
-/*Estilos do body*/
+/*Minhas variáveis*/
+:root {
+    --vermelho: #D50405; 
+    --preto: #141414;
+}
+
+
+/*Reset do site*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+/*Estilos do Body*/
 body {
-    background-color: #141414;
+    background: var(--preto);
+    font-family: 'Rubik', sans-serif;
+    color: #fff;
+}
+
+
+/*Estilos do Header*/
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 10px;
+    color: var(--vermelho);
+    font-family: 'Arial', Times;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+
+header nav a {
+    text-decoration: none;
+    color: #cccccc;
+    margin-right: 10px;
+}
+
+header nav a:hover {
+    color: var(--vermelho);
+}
+
+/*Estilos do main*/
+.filme-principal {
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url('/img/capa-de-fundo.jpg');
+   
+    height: 400px;
+    background-size: cover;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao {
+    margin-bottom: 90px;
+}
+
+.titulo {
+    font-size: 40px;
 }
