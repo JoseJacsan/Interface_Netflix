@@ -17,7 +17,7 @@
 /*Estilos do Body*/
 body {
     background: var(--preto);
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Arial', Times;
     color: #fff;
 }
 
@@ -103,4 +103,15 @@ header nav a:hover {
 
 .filme-principal .container {
     width: 60%;
+}
+
+/*Carrosel de filmes*/
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes {
+    margin-top: 5px;
 }
